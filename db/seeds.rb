@@ -78,8 +78,6 @@ Treatment.create(
   upvotes: 100,
   downvotes: 35 )
 
-------
-
 Treatment.create(
   symptom: "Chest Tightness",
   treatment_name: "Relaxed breathing",
@@ -159,7 +157,6 @@ Treatment.create(
   bodypart: "Chest",
   upvotes: 100,
   downvotes: 35 )
-------
 
 Treatment.create(
   symptom: "Bloating",
@@ -292,8 +289,8 @@ Treatment.create(
 Treatment.create(
   symptom: "Brittleness of nails",
   treatment_name: "Coconut Oil",
-  treatment_description: "Coconut oil is very nourishing for weak and brittle nails. The saturated fat in coconut oil works as a great moisturizer. It will also prevent many kinds of nail infections.".
-   bodypart: "Upper limbs",
+  treatment_description: "Coconut oil is very nourishing for weak and brittle nails. The saturated fat in coconut oil works as a great moisturizer. It will also prevent many kinds of nail infections.",
+  bodypart: "Upper limbs",
   upvotes: 100,
   downvotes: 35 )
 
@@ -375,8 +372,8 @@ Treatment.create(
   treatment_name: "Tea Tree Oil",
   treatment_description: "incorporate the use of tea tree oil, which is known to have tremendous anti fungal properties. Soaking your feet in a tub filled with an anti fungal oral mouthwash is also known to show significant improvements in the condition as a result of its anti fungal properties. This method also helps restore the nail to its original color, however, much like the development of the condition, the recuperation is gradual and results will only be seen over a period of time.",
   bodypart: "Legs",
-  upvotes: ,
-  downvotes: )
+  upvotes: 51,
+  downvotes: 14)
 
 Treatment.create(
   symptom: "Brittle Toenail",
