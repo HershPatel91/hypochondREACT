@@ -242,6 +242,87 @@ Treatment.create(
   downvotes: 35 )
 
 Treatment.create(
+  symptom: "Joint swelling",
+  treatment_name: "Ice pack",
+  treatment_description: "Apply ice or a cold pack, wrapped in a cloth, to the affected joint for up to 10 minutes at a time to bring down the swelling.",
+  bodypart: "Upper limbs",
+  upvotes: 50,
+  downvotes: 10 )
+
+Treatment.create(
+  symptom: "Joint swelling",
+  treatment_name: "Avoid movement",
+  treatment_description: "avoid moving or putting weight on the injured joint for a period of time.",
+  bodypart: "Upper limbs",
+  upvotes: 50,
+  downvotes: 20 )
+
+Treatment.create(
+  symptom: "Joint pain",
+  treatment_name: "Pain killers",
+  treatment_description: "Over the counter painkillers can temporarily alleviate joint pain.",
+  bodypart: "Upper limbs",
+  upvotes: 40,
+  downvotes: 15 )
+
+Treatment.create(
+  symptom: "Joint pain",
+  treatment_name: "Physical therapy",
+  treatment_description: "Physical therapy can strengthen weak muscles to improve pain",
+  bodypart: "Upper limbs",
+  upvotes: 150,
+  downvotes: 30 )
+
+Treatment.create(
+  symptom: "Tingling",
+  treatment_name: "Vitamin B-12",
+  treatment_description: "Numbness in one or both of your hands may be caused by a deficiency of Vitamin B-12 or an imbalance of potassium, sodium or calcium.",
+  bodypart: "Upper limbs",
+  upvotes: 100,
+  downvotes: 5 )
+
+Treatment.create(
+  symptom: "Tingling",
+  treatment_name: "Massage",
+  treatment_description: "Massaging the affected area can alleviate tingling/numbness",
+  bodypart: "Upper limbs",
+  upvotes: 10,
+  downvotes: 35 )
+
+Treatment.create(
+  symptom: "Brittleness of nails",
+  treatment_name: "Coconut Oil",
+  treatment_description: "Coconut oil is very nourishing for weak and brittle nails. The saturated fat in coconut oil works as a great moisturizer. It will also prevent many kinds of nail infections.".
+   bodypart: "Upper limbs",
+  upvotes: 100,
+  downvotes: 35 )
+
+Treatment.create(
+  symptom: "Brittleness of nails",
+  treatment_name: "Sea Salt",
+  treatment_description: "Sea salt has many healing minerals that are good for your nails. It can help strengthen brittle nails as well as soften cuticles and add a brilliant shine to your nails.",
+  bodypart: "Upper limbs",
+  upvotes: 10,
+  downvotes: 60 )
+
+Treatment.create(
+  symptom: "Missing",
+  treatment_name: "Fake limbs",
+  treatment_description: "With today's technology and a big bank account, you can purchase a robotic arms that will probably function better than your old one",
+  bodypart: "Upper limbs",
+  upvotes: 100,
+  downvotes: 35 )
+
+Treatment.create(
+  symptom: "Missing",
+  treatment_name: "Hand Hook",
+  treatment_description: "Just ask Captain Hook. It worked ok for him.",
+  bodypart: "Upper limbs",
+  upvotes: 100,
+  downvotes: 35 )
+
+
+Treatment.create(
   symptom: "Leg Cramps",
   treatment_name: "Stretch and temperature",
   treatment_description: "Stretch and massage the muscle. Take a warm shower or bath to relax the muscle. A heating pad placed on the muscle can also help. Try using an ice or cold pack. Always keep a cloth between your skin and the ice pack.",
