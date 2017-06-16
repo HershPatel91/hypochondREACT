@@ -12,24 +12,11 @@
 
 ActiveRecord::Schema.define(version: 20170615210123) do
 
-  create_table "bodyparts", force: :cascade do |t|
-    t.string "name"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "symptoms", force: :cascade do |t|
-    t.string "name"
-    t.string "description"
-    t.integer "bodypart_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "treatments", force: :cascade do |t|
-    t.string "name"
-    t.string "description"
-    t.integer "symptom_id"
+    t.string "symptom"
+    t.string "treatment_name"
+    t.text "treatment_description"
+    t.string "bodypart"
     t.integer "upvotes"
     t.integer "downvotes"
     t.datetime "created_at", null: false
