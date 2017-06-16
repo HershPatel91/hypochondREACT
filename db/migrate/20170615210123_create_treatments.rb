@@ -5,8 +5,8 @@ class CreateTreatments < ActiveRecord::Migration[5.1]
       t.string :treatment_name
       t.text :treatment_description
       t.string :bodypart
-      t.integer :upvotes
-      t.integer :downvotes
+      t.integer :upvotes, default: 0
+      t.integer :downvotes, default: 0
 
       t.timestamps
     end
