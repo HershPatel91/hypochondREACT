@@ -25,6 +25,6 @@ class Api::V1::TreatmentsController < ApplicationController
   private
 
   def treatment_params
-    params.require(:treatment).permit(:name)
+    params.require(:treatment).permit(:symptom,:treatment_name,:treatment_description,:bodypart,:upvotes,:downvotes)
   end
 end
